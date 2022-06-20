@@ -1,0 +1,182 @@
+.company-logo{
+            width: 76px !important;
+            margin-top: -12px !important;
+        }
+        .logo-text{
+           float: left;margin-top: -22px; 
+           margin-left: 3px; 
+           font-size: 12px; 
+           color: #fff; 
+        }
+        #navigation{
+            padding: 10px 15px;
+        }
+        .slider-text{
+           padding-top: 11em; 
+        }
+        .company-about{
+            color: #fff; 
+            margin-top: -16px;
+            font-family: Work Sans;
+            font-weight: 600
+        }
+        .img-mobile-home{
+            width: 88% !important;
+        }
+        .btn-home-slider{
+          margin-top: 26px;  
+        }
+        #app-about-area{
+            background-color: #fff; 
+            font-family: Work Sans;
+        }
+        #app-about-area h2{
+            font-family: Work Sans;
+        }
+        .about-platform{
+            margin-top: 82px;
+        }
+        .asesome-feature-details h5  {
+            font-family: Work Sans;
+        }
+        .price-value {
+            font-family: Work Sans;
+        }
+        .counter{
+            font-size: 55px !important;
+        }
+        .nav.navbar-nav.navbar-right li{
+            font-family: Work Sans;
+            font-weight: 300;
+        }
+        .short-description{
+            font-size: 12px;
+            text-align: justify;
+            line-height: 20px;
+        }
+        .client-designation{
+            font-weight: 300;
+            font-size: 14px;
+        }
+        .slick-dots{
+            bottom: 88px;
+        }
+        .hybrid-icon{
+            background-color: transparent !important;
+            width: calc(100% - 34px) !important;
+            z-index: 1;
+            color: #fff !important;
+        }  
+        .icofont-white{
+            background-color: transparent !important;
+            z-index: 1;
+            color: #fff !important;
+        }
+        .single-fact h5 {
+            font-family: Work Sans;
+            font-weight: 600;
+        }
+        #awesome-features-area{
+            font-family: Work Sans;
+        }
+        #news-area{
+            font-family: Work Sans;
+        }
+        #awesome-features-area h2{
+            font-family: Work Sans;
+        }
+        #news-area h2{
+            font-family: Work Sans;
+        }
+        #pricing-table-area{
+            font-family: Work Sans;
+        }
+        #awards-area{
+            font-family: Work Sans;
+        }
+
+        #pricing-table-area h2{
+            font-family: Work Sans;
+        }
+        #awards-area h2{
+            font-family: Work Sans;
+        }
+        #testimonial-area{
+            font-family: Work Sans;
+        }
+        .client-testimonial h3 {
+            font-family: Work Sans;
+        }
+        #team-area{
+           font-family: Work Sans; 
+        }
+
+        #team-area h2{
+           font-family: Work Sans; 
+        }
+        #faq-area{
+            font-family: Work Sans;
+        }
+        #faq-area h2{
+            font-family: Work Sans;
+        }
+        .faq-question{
+            font-family: Work Sans;
+        }
+        #app-download-area{
+            font-family: Work Sans;
+        }
+
+        #app-download-area h2{
+            font-family: Work Sans;
+            color: #fff;
+        }
+        #app-download-area p{
+            font-size: 16px;
+        }
+        #contact-area{
+            font-family: Work Sans;
+        }
+        #contact-area h2{
+            font-family: Work Sans;
+        }
+        .contact-head{
+            font-size: 18px; 
+            font-family: Work Sans; 
+            text-transform: none !important;
+        }
+        #footer-area{
+            font-family: Work Sans;
+        }
+        .feature-details p{
+            text-align: justify !important;
+
+        }
+        .table-content li:last-child{
+            padding: 0px 10px 0px 10px;
+        }
+        .product-text{
+            padding-bottom: 18px !important;
+        }
+        .about-team-text{
+            font-size: 16px;
+        }
+        .heading-contact{
+            text-transform: none !important;
+        }
+        #testimonial-area h2{
+            font-family: Work Sans;
+        }
+        @media screen and (max-width: 760px) {
+            .company-logo{
+                width: 18% !important;
+            }
+            .logo-text{
+                font-size: 8px;
+            }
+        }
+
+        #co_by_esthenos {
+            background-color: #fff !important;
+            background: #fff !important;
+        }
