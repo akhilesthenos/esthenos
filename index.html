@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/style.scss">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.css">
     <!-- modernizr js -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300" rel="stylesheet">
@@ -1255,7 +1256,15 @@
     <script src="js/appai.map.js"></script>
     <script src="js/main.js"></script>
     <script src="js/particles.js"></script>
-    <script src="js/typewriter-effect.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.js"
+        integrity="sha512-JSVRnP8UFs0ieN/cvP9v4vmW1CotIaEKKN7W+4JaKNrllZolTv2aJfVGn4BFdfZ1jRZxgTAAaXWdlZbEm9iwFA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        new fullpage('#fullpage', {
+            autoScrolling: true,
+            // navigation:true
+        })
+    </script>
     <script>
         particlesJS("particles-js", {
             "particles": {
