@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/elements.css">
     <link rel="stylesheet" href="css/color-variation.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.scss">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <!-- modernizr js -->
@@ -40,7 +41,7 @@
 
         <header class="home-style-2">
             <nav class="navbar navbar-fixed-top" data-spy="affix" data-offset-top="1">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                             data-target="#navigation" aria-expanded="false">
@@ -109,90 +110,28 @@
             <div class="shape"></div>
             <div class="shape"></div>
             <!-- <div id="particles-js" class="home-style-16"></div> -->
-            <div class="slider-wrapper">
-                <div class="slide">
-
-                    <div class="container">
-
-                        <div class="slider-text">
-                            <div class="row" style="margin-left: -32px;">
-                                <div class="col-sm-3">
-                                    <div class="single-fact text-center">
-                                        <i class="icofont icofont-cur-rupee-true"></i>
-                                        <h5>
-                                            <b>Loans Sourced (in Cr)</b>
-                                        </h5>
-                                        <h2 class="counter">20,500</h2>
-                                    </div>
-                                </div>
-                                <div class="col-sm-2" style="padding: 0.5rem">
-                                    <div class="single-fact text-center ">
-                                        <i class="icofont icofont-pay"></i>
-                                        <h5>
-                                            <b>Monthly EMI (in Cr)</b>
-                                        </h5>
-                                        <h2 class="counter animate-number">700</h2>
-                                    </div>
-                                </div>
-                                <div class="col-sm-2" style="padding-left:2rem">
-                                    <div class="single-fact text-center">
-                                        <i class="icofont icofont-location-arrow"></i>
-                                        <h5>
-                                            <b>Locations</b>
-                                        </h5>
-                                        <h2 class="counter">1,300</h2>
-                                    </div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="single-fact text-center">
-                                        <i class="icofont icofont-boy"></i>
-                                        <h5>
-                                            <b>Users</b>
-                                        </h5>
-                                        <h2 class="counter ">8,300</h2>
-                                    </div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="single-fact text-center ">
-                                        <i class="icofont icofont-map"></i>
-                                        <h5>
-                                            <b>States</b>
-                                        </h5>
-                                        <h2 class="counter animate-number">23</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div data-animation="fadeInDown" data-delay="1.3s" style="margin-top: 45px">
-                                <h4 class="company-about">A complete tech platform for Banks | MFIs | NBFCs | FIs</h4>
-                                <a href="/esthenos.pdf" download="eSthenos_brochure"
-                                    class="btn btn-bordered-white btn-home-slider mr30">Download</a>
-                                <a href="#for-demo" class="btn btn-bordered-white btn-home-slider btn-demo mr30">Live
-                                    Demo</a>
-                                <a href="#awards-and-recognition"
-                                    class="btn btn-bordered-white btn-home-slider btn-demo mr30">Awards</a>
-                                <a href="" data-toggle="modal" data-target="#isoModal"
-                                    class="btn btn-bordered-white btn-home-slider btn-demo mr30">ISO/IEC 27001:2013 </a>
-                                <br>
-                                <a href="#" id="co_by_esthenos"
-                                    class="btn btn-bordered-white btn-home-slider btn-demo mr30"
-                                    style="padding: 0px; position: relative; width:14rem" tabindex="0" class="co"
-                                    data-toggle="modal" data-target="#CO">
-                                    <img src="products/website/CO.png" alt="CRISIL"
-                                        style="height:4rem; margin: auto; padding: 5px">
-                                </a>
-                                <a href="#" id="co_by_esthenos"
-                                    class="btn btn-bordered-white btn-home-slider btn-demo mr30"
-                                    style="padding: 0px; position: relative; width:14rem" tabindex="0" class="co"
-                                    data-toggle="modal" data-target="#crisilModal">
-                                    <img src="img/CRISIL.PNG" alt="CRISIL"
-                                        style="height:4rem; margin: auto; padding: 5px;width: 67%;">
-                                </a>
-                            </div>
-                        </div>
-
-
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
                         <!-- Swiper -->
                         <div class="promo-header-area text-center">
+                            <!-- Scroller Start -->
+                            <div class="sliding-text">
+                                <h4 class="wordCarousel animated fadeInUp wow">
+                                    <span>Complete technology infrastructure for
+                                        <div>
+                                            <!-- Use classes 2,3,4, or 5 to match the number of words -->
+                                            <ul class="flip5">
+                                                <li>Business&nbsp;Correspondence</li>
+                                                <li>Microfinance</li>
+                                                <li>Fintech</li>
+                                                <li>NBFC</li>
+                                                <li>BANK</li>
+                                            </ul>
+                                        </div>
+                                    </span>
+                                </h4>
+                            </div>
                             <div class="swiper-container one animated fadeInUp wow" data-wow-delay=".1s">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
@@ -206,23 +145,16 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider-image" data-animation="fadeInRight" data-delay=".3s">
-                                <img src="img/mockups/mock-up.png" class="img-mobile-home" alt="">
-                            </div>
                         </div>
                     </div>
-
                 </div>
+
             </div>
-            <!-- <div class="scroll-icon text-center">
-                <a href="#app-about-area" class="wow fadeInDown infinite" data-wow-duration="2s">
-                    <i class="icofont icofont-scroll-long-down"></i>
-                </a>
-            </div> -->
+
         </section>
 
         <section id="app-about-area" class="home-style-2 ptb-120">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="section-heading text-center">
@@ -256,7 +188,8 @@
                             </div>
                             <div class="feature-details media-body">
                                 <h5 class="text-uppercase">Hybrid</h5>
-                                <p>Store your core financial data on-premise while offloading heavy media to the cloud</p>
+                                <p>Store your core financial data on-premise while offloading heavy media to the cloud
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -277,7 +210,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container about-platform">
+            <div class="container-fluid about-platform">
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="about-app mt-100">
@@ -310,10 +243,10 @@
                     </div>
                 </div>
             </div>
-            
+
         </section>
         <section id="awesome-features-area" class="overlay-white ptb-120">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="section-heading text-center">
@@ -415,7 +348,7 @@
 
         <!-- impact starts -->
         <section id="pricing-table-area" class="overlay-white ptb-120">
-            <div class="container  products-block">
+            <div class="container-fluid  products-block">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="section-heading text-center">
@@ -763,7 +696,7 @@
 
         <!-- partners -->
         <section id="industry-leaders-who-trust-us" class="ptb-120">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row text-center">
                     <div class="col-sm-12">
                         <div class="section-heading text-center">
@@ -1146,7 +1079,7 @@
 
         <!-- app download area start -->
         <section id="app-download-area" class="home-style-2 blue-grad-bg-2 ptb-120">
-            <div class="container">
+            <div class="container m-0 width-100per">
                 <div class="row">
                     <div class="col-sm-7">
                         <div class="download-app">
@@ -1322,6 +1255,7 @@
     <script src="js/appai.map.js"></script>
     <script src="js/main.js"></script>
     <script src="js/particles.js"></script>
+    <script src="js/typewriter-effect.js"></script>
     <script>
         particlesJS("particles-js", {
             "particles": {
